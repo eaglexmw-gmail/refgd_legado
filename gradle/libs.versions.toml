@@ -1,7 +1,9 @@
 [versions]
 
 kotlin = "2.3.10"
-ksp = "2.3.7"
+# 2.3.12 与 MD3 分支对齐；配合 gradle.properties 的 ksp.incremental=false，
+# 规避 KSP2 在 Windows 上处理 glide-svg 预编译索引类的 root 报错。
+ksp = "2.3.12"
 agp = "8.13.2"
 appcompat = "1.7.1"
 colorpicker = "1.1.0"
