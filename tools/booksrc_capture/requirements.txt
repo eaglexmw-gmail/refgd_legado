@@ -1,0 +1,2 @@
+mitmproxy>=10.3,<12
+websocket-client>=1.6
